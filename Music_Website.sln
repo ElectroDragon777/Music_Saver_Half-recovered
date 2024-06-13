@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3.csproj", "{2548A22F-0B00-4FF6-BFF7-999E0DE4388C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Music Saver", "Music Saver.csproj", "{2548A22F-0B00-4FF6-BFF7-999E0DE4388C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

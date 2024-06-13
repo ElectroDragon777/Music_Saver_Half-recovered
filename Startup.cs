@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using WebApplication3.Data;
 using WebApplication3.Models;
+using FluentAssertions.Common;
 
 namespace WebApplication3
 {
@@ -50,6 +51,7 @@ namespace WebApplication3
                 options.Conventions.AuthorizeFolder("/Videos");
             });
             services.AddServerSideBlazor();
+            services.AddApplicationInsightsTelemetry();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

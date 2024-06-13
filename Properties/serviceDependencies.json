@@ -3,6 +3,9 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:VideoContext"
+    },
+    "appInsights1": {
+      "type": "appInsights"
     }
   }
 }
